@@ -127,6 +127,9 @@ input,textarea{
 	background-color:skyblue;
 	color:darkred;
 }
+.contact-submit:hover{
+	background-color:darkblue;
+}
 .message{
 	padding:15px 40px;
 	background-color:#5dca88;
