@@ -1,0 +1,226 @@
+body{
+	font-family:"Avenir Next";
+}
+
+
+.header {
+	color:red;
+	background-color:lime;
+	height:90px;
+	width:100%;
+
+}
+.header-logo{
+	font-size:40px;
+	float:left;
+	padding:30px 50px;
+}
+.header-list{
+	float:right;
+	padding:13px 20px;
+}
+.container{
+	width:100%;
+	padding:0 15px;
+	margin:0 auto;
+}
+.top-part{
+	padding:200px 2px 100px 2px;
+	background-color:#111;
+	text-align:center;
+	color:#ff0000;
+
+}
+.top-part h1{
+	font-size:60px;
+	letter-spacing:3px;
+	opacity:0.8;
+	margin-bottom:15px;
+}
+.top-part p{
+	margin-bottom:4px;
+	opacity:0.8;
+}
+.btn-part{
+	margin: 15px 2px;
+}
+.btn-part p{
+	margin:10px 0;
+}
+.create{
+	background-color:#239b76;
+	color:white;
+}
+.signup{
+	background-color:#239b76;
+	color:white;
+}
+.facebook{
+	background-color:#3b5998;
+	margin-right:9px;
+}
+.contact{
+	background-color:#55acee;
+}
+.btn{
+	padding:12px 24px;
+	color:white;
+	display:inline-block;
+	opacity:0.7;
+	border-radius:2px;
+}
+.btn:hover{
+	opacity:1;
+}
+.name-part{
+	height:600px;
+	padding-bottom:100px;
+	background-color:#f7f7f7;
+	text-align:center;
+}
+.heading{
+	padding:75px 0 33px 0;
+	color:#5f5d60;
+}
+.heading h2{
+	font-weight:normal;
+}
+span{
+	color:#ff0000;
+}
+.name{
+	float:left;
+	width:25%;
+}
+.name-icon{
+	position:relative;
+}
+.name-icon p{
+	position:absolute;
+	top:80px;
+	width:100%;
+	color:darkred;
+}
+txt-contents{
+	width:50%;
+	display:inline-block;
+	margin-top:20px;
+	font-size:15px;
+	color:#b3aeb5;
+}
+.achievement{
+	width:100%;
+	height:400px;
+}
+.application-form{
+	padding-top:100px;
+}
+input,textarea{
+	width:420px;
+	margin-top:12px;
+	margin-bottom:36px;
+    padding:20px;
+    font-size:20px;
+    border:2px solid purple;
+}
+.contact-submit{
+	background-color:skyblue;
+	color:darkred;
+}
+.message{
+	padding:15px 40px;
+	background-color:#5dca88;
+	cursor:pointer;
+	box-shadow:0 7px #1a7940;
+}
+.message-part{
+	border:1px solid #eee;
+	padding-bottom:80px;
+	text-align:center;
+}
+.massage:active{
+	position:relative;
+	top:7px;
+	box-shadow:none;
+}
+.achievement li{
+	width:50%;
+	color:darkgray;
+}
+.achievement{
+	background-color:#333;
+	color:darkgray;
+	
+}
+.statement{
+	color:white;
+	font-size:22px;
+	letter-spacing:3px;
+}
+.sign-modal-wrapper{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background-color:rgba(0,0,0,0.6);
+	z-index:120;
+	display:none;
+}
+.modal{
+	position:absolute;
+	top:20%;
+	left:30%;
+	background-color:#e6ecf0;
+	padding:24px 0 40px;
+	border-radius:20px;
+	width:600px;
+	height:auto;
+	text-align:center;
+}
+.fa-times {
+  position: absolute;
+
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+.fa-times:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: 0.3s ease-in-out;
+}
+
+#signup-form {
+  width: 100%;
+}
+
+
+}
+
+#signup-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #5dca88;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+#signup-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
