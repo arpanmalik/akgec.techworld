@@ -230,3 +230,22 @@ input,textarea{
 .message-part{
 	background-color:lightpink;
 }
+#create-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+.create-modal-wrapper{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background-color:rgba(0,0,0,0.6);
+	z-index:120;
+	display:none;
+}
+#create-form {
+  width: 100%;
+}
+
