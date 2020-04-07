@@ -224,3 +224,9 @@ input,textarea{
   letter-spacing: 1px;
   margin-bottom: 40px;
 }
+.application-form{
+	color:skyblue;
+}
+.message-part{
+	color:lightpink;
+}
